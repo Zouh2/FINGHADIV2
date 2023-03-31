@@ -96,7 +96,6 @@ flutter:
   # example:
   fonts:
     - family: FenGhadiIcons
-    - family: OpenSans
       fonts:
         - asset: fonts/FenGhadiIcons.ttf
         - asset: assets/fonts/OpenSans.ttf

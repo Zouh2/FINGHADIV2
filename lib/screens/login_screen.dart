@@ -44,9 +44,9 @@ class _CompteState extends State<Compte> {
         email: emailController.text,
         password: passwordController.text,
       );
-      Navigator.pop((context));
+      Navigator.pop(context);
     }on FirebaseAuthException catch (e) {
-      Navigator.pop((context));
+      Navigator.pop(context);
       if (e.code == 'user-not-found') {
         print('aucun email coonecter ');
         wrongEmailMessage();

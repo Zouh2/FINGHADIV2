@@ -39,7 +39,7 @@ class _MyAppMainState extends State<MyAppMain> {
           //   title: const Text("Fen Ghadi"),
           // ),
           body: pageIndex == 0
-              ? const ProfilePage()
+              ? const AuthPage()
               : pageIndex == 1
               ? HomePage(
             isBusChecked: isBusChecked,

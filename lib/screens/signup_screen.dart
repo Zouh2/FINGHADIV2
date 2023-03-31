@@ -36,14 +36,14 @@ class _SignUpScreenState extends State<SignUpScreen> {
           email: emailController.text,
           password: passwordController.text,
         );
-        Navigator.pop((context));
+        Navigator.pop(context);
       }
       else{
-        Navigator.pop((context));
+        Navigator.pop(context);
         ErrorMessage();
       }
     }on FirebaseAuthException catch (e) {
-      Navigator.pop((context));
+      Navigator.pop(context);
       if (e.code == 'user-found') {
         print(' email deja un compte');
         wrongEmailMessage();

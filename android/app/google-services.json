@@ -50,6 +50,51 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812659089210:android:e7d747e2af75f14e45fa03",
+        "android_client_info": {
+          "package_name": "ma.fenghadi.app.fen_ghadi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812659089210-khve2ui26qg4jtcmoqcb2c059aablf7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ma.fenghadi.app.fen_ghadi",
+            "certificate_hash": "06efa0ab7b43b59db6a88c4e784e1571a7995c54"
+          }
+        },
+        {
+          "client_id": "812659089210-oqogna3ropipj5lua8cj1jouimspsrnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ma.fenghadi.app.fen_ghadi",
+            "certificate_hash": "3496e24fc6b888c516aca416c1249241c9741f98"
+          }
+        },
+        {
+          "client_id": "812659089210-4m4f6kkuluhfv9nb07esrsglkan5rg8u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtDMIrTav6pKr5LjufKAyG03UCcA4MYts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812659089210-1tej0svum6bicqo8bud57bbgig2ld8dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

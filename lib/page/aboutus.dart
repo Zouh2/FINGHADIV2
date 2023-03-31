@@ -21,6 +21,22 @@ class _AboutState extends State<About> {
     double fem = MediaQuery.of(context).size.width / baseWidth;
     double ffem = fem * 0.97;
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        iconTheme: const IconThemeData(color:Colors.black),
+        centerTitle: true,
+        title: Text(
+          'A propos nous ',
+          style: SafeGoogleFont(
+            'Ubuntu',
+            fontSize: 18,
+            fontWeight: FontWeight.w400,
+            height: 1.7,
+            color: const Color(0xFF3F3D56),
+          ),
+        ),
+        toolbarHeight: 60,
+      ),
       body: Container(
         width: double.infinity,
         child: Container(
@@ -34,7 +50,7 @@ class _AboutState extends State<About> {
             children: [
               Container(
                 // autogrouptxhtSEq (GQKDvtz93h5PuczGC2txhT)
-                margin: EdgeInsets.fromLTRB(0*fem, 30*fem, 0*fem, 62.38*fem),
+                margin: EdgeInsets.fromLTRB(0*fem, 0*fem, 0*fem, 62.38*fem),
                 padding: EdgeInsets.fromLTRB(17*fem, 30*fem, 17*fem, 13*fem),
                 width: 362*fem,
                 height: 215.62*fem,
@@ -43,30 +59,6 @@ class _AboutState extends State<About> {
                     fit: BoxFit.cover,
                     image: AssetImage (
                       'lib/images/Vector.png',
-                    ),
-                  ),
-                ),
-                child: Align(
-                  // backbutton52u (1:3812)
-                  alignment: Alignment.topLeft,
-                  child: SizedBox(
-                    width: 42*fem,
-                    height: 42*fem,
-                    child: TextButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const MyAppMain()),
-                        );
-                      },
-                      style: TextButton.styleFrom (
-                        padding: EdgeInsets.zero,
-                      ),
-                      child: Image.asset(
-                        'assets/images/page-1/images/back-button-SvZ.png',
-                        width: 42*fem,
-                        height: 42*fem,
-                      ),
                     ),
                   ),
                 ),
