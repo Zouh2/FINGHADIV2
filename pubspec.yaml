@@ -98,6 +98,8 @@ flutter:
     - family: FenGhadiIcons
       fonts:
         - asset: fonts/FenGhadiIcons.ttf
+    - family: OpenSans
+      fonts:
         - asset: assets/fonts/OpenSans.ttf
   #   - family: Trajan Pro
   #     fonts:
